@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(105, 105, 59);
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.middle-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100vh;
+    width: 10px;
+    background-color: black;
+}
+.door {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width:50%;
+    background-color: black;
+}
+.seat {
+    height: 50px;
+    width: 40%;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+.driver {
+    position: absolute;
+    left: 55%;
+}
+.pass1 {
+    position: absolute;
+    top: 10%;
+    right: 55%;
+}
+.pass2 {
+    position: absolute;
+    top: 30%;
+    right: 55%;
+}
+.pass3 {
+    position: absolute;
+    top: 50%;
+    right: 55%;
+}
+.pass4 {
+    position: absolute;
+    top: 70%;
+    right: 55%;
+}
+.pass5 {
+    position: absolute;
+    top: 88%;
+    right: 55%;
+}
+.pass6 {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+.pass7 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+.pass8 {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+.pass9 {
+    position: absolute;
+    top: 88%;
+    left: 55%;
+}
