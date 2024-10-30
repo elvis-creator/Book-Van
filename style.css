@@ -46,8 +46,15 @@ body {
 
 }
 .driver {
+    height: 50px;
+    width: 40%;
     position: absolute;
     left: 55%;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
 }
 .pass1 {
     position: absolute;
